@@ -1,0 +1,34 @@
+# Compiled output
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+
+# Build directories
+build/
+dist/
+cmake-build-debug/
+cmake-build-release/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.code-workspace
+
+# Executable files (without extension on Unix)
+/src/main
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Dependency files
+*.d
