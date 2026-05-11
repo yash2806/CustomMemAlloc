@@ -136,7 +136,7 @@ void *my_calloc(size_t num, size_t nsize)
 	
 	if (nsize != size / num)
 		return NULL;
-	block = malloc(size);
+	block = my_malloc(size);
 	if (!block)
 		return NULL;
 	memset(block, 0, size);
