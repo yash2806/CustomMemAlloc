@@ -3,6 +3,7 @@
 #include <iostream>
 #include <cstring>
 #include <pthread.h>
+#include "my_allocator.h"
 
 // Note: With the addition of requested_size, the struct size increases.
 // You might want to adjust ALIGN to 32 depending on your target architecture's alignment needs.
